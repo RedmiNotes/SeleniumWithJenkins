@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="5">
+	<test name="Test_1">
+		<classes>
+			<class name="com.selenium.testcases.TC_01_EditTextBox" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test_2">
+		<classes>
+			<class name="com.selenium.testcases.TC_02_FrameHandling" />
+		</classes>
+	</test>
+	<test name="Test_3">
+		<classes>
+			<class name="com.selenium.testcases.TC_03_Buttons" />
+		</classes>
+	</test>
+	<test name="Test_4">
+		<classes>
+			<class name="com.selenium.testcases.TC_04_Windows" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->
