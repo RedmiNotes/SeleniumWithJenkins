@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4675727734,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHook.start_browser(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Text_Box_Page",
+        "description": "",
+        "id": "textbox-page;text-box-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1320057962,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHook.endreport()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8433288580,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "login to teaf leaf website",
+            "match": {
+              "location": "TC_01_EditTextbox.login_to_teaf_leaf_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6156405934,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "navigate to edit page",
+            "match": {
+              "location": "TC_01_EditTextbox.navigate_to_edit_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3496943566,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter the firstname",
+            "match": {
+              "location": "TC_01_EditTextbox.enter_the_firstname()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5608846567,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter the lastname",
+            "match": {
+              "location": "TC_01_EditTextbox.enter_the_lastname()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Textbox_Page",
+    "description": "",
+    "id": "textbox-page",
+    "keyword": "Feature",
+    "uri": "./FeatureFile/Textbox.feature"
+  }
+]

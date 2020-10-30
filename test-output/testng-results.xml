@@ -1,154 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="44205" started-at="2020-10-26T12:17:54 IST" finished-at="2020-10-26T12:18:38 IST">
+  <suite name="Default suite" duration-ms="865" started-at="2020-10-30T23:59:06 IST" finished-at="2020-10-30T23:59:07 IST">
     <groups>
     </groups>
-    <test name="Test_3" duration-ms="36923" started-at="2020-10-26T12:17:54 IST" finished-at="2020-10-26T12:18:31 IST">
-      <class name="com.selenium.testcases.TC_03_Buttons">
-        <test-method status="PASS" signature="startpage()[pri:0, instance:com.selenium.testcases.TC_03_Buttons@5395ea39]" name="startpage" is-config="true" duration-ms="26041" started-at="2020-10-26T12:17:54 IST" finished-at="2020-10-26T12:18:20 IST">
+    <test name="Default test" duration-ms="865" started-at="2020-10-30T23:59:06 IST" finished-at="2020-10-30T23:59:07 IST">
+      <class name="com.jackson.json.Json_02">
+        <test-method status="PASS" signature="read_01()[pri:0, instance:com.jackson.json.Json_02@34c4973]" name="read_01" duration-ms="772" started-at="2020-10-30T23:59:06 IST" finished-at="2020-10-30T23:59:07 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startpage -->
-        <test-method status="PASS" signature="startreport(org.testng.ITestResult)[pri:0, instance:com.selenium.testcases.TC_03_Buttons@5395ea39]" name="startreport" is-config="true" duration-ms="0" started-at="2020-10-26T12:18:20 IST" finished-at="2020-10-26T12:18:20 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=TC_03_Buttons.Button_Page()[pri:0, instance:com.selenium.testcases.TC_03_Buttons@5395ea39] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- read_01 -->
+        <test-method status="PASS" signature="read_02()[pri:0, instance:com.jackson.json.Json_02@34c4973]" name="read_02" duration-ms="6" started-at="2020-10-30T23:59:07 IST" finished-at="2020-10-30T23:59:07 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startreport -->
-        <test-method status="PASS" signature="Button_Page()[pri:0, instance:com.selenium.testcases.TC_03_Buttons@5395ea39]" name="Button_Page" duration-ms="10794" started-at="2020-10-26T12:18:20 IST" finished-at="2020-10-26T12:18:31 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Button_Page -->
-        <test-method status="PASS" signature="endreport()[pri:0, instance:com.selenium.testcases.TC_03_Buttons@5395ea39]" name="endreport" is-config="true" duration-ms="58" started-at="2020-10-26T12:18:31 IST" finished-at="2020-10-26T12:18:31 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endreport -->
-      </class> <!-- com.selenium.testcases.TC_03_Buttons -->
-    </test> <!-- Test_3 -->
-    <test name="Test_2" duration-ms="37328" started-at="2020-10-26T12:17:54 IST" finished-at="2020-10-26T12:18:31 IST">
-      <class name="com.selenium.testcases.TC_02_FrameHandling">
-        <test-method status="PASS" signature="startpage()[pri:0, instance:com.selenium.testcases.TC_02_FrameHandling@18fdb6cf]" name="startpage" is-config="true" duration-ms="25568" started-at="2020-10-26T12:17:54 IST" finished-at="2020-10-26T12:18:19 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startpage -->
-        <test-method status="PASS" signature="startreport(org.testng.ITestResult)[pri:0, instance:com.selenium.testcases.TC_02_FrameHandling@18fdb6cf]" name="startreport" is-config="true" duration-ms="1" started-at="2020-10-26T12:18:22 IST" finished-at="2020-10-26T12:18:22 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=TC_02_FrameHandling.framehandling(java.util.Map)[pri:0, instance:com.selenium.testcases.TC_02_FrameHandling@18fdb6cf] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startreport -->
-        <test-method status="PASS" signature="framehandling(java.util.Map)[pri:0, instance:com.selenium.testcases.TC_02_FrameHandling@18fdb6cf]" name="framehandling" duration-ms="9186" started-at="2020-10-26T12:18:22 IST" data-provider="datas" finished-at="2020-10-26T12:18:31 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Email=Mark123@mail.com, Name=Mark}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- framehandling -->
-        <test-method status="PASS" signature="endreport()[pri:0, instance:com.selenium.testcases.TC_02_FrameHandling@18fdb6cf]" name="endreport" is-config="true" duration-ms="1" started-at="2020-10-26T12:18:31 IST" finished-at="2020-10-26T12:18:31 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endreport -->
-      </class> <!-- com.selenium.testcases.TC_02_FrameHandling -->
-    </test> <!-- Test_2 -->
-    <test name="Test_4" duration-ms="43647" started-at="2020-10-26T12:17:54 IST" finished-at="2020-10-26T12:18:37 IST">
-      <class name="com.selenium.testcases.TC_04_Windows">
-        <test-method status="PASS" signature="reportgen()[pri:0, instance:com.selenium.testcases.TC_04_Windows@599f571f]" name="reportgen" is-config="true" duration-ms="281" started-at="2020-10-26T12:17:54 IST" finished-at="2020-10-26T12:17:54 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportgen -->
-        <test-method status="PASS" signature="startpage()[pri:0, instance:com.selenium.testcases.TC_04_Windows@599f571f]" name="startpage" is-config="true" duration-ms="25296" started-at="2020-10-26T12:17:54 IST" finished-at="2020-10-26T12:18:19 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startpage -->
-        <test-method status="PASS" signature="startreport(org.testng.ITestResult)[pri:0, instance:com.selenium.testcases.TC_04_Windows@599f571f]" name="startreport" is-config="true" duration-ms="6" started-at="2020-10-26T12:18:19 IST" finished-at="2020-10-26T12:18:19 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=TC_04_Windows.Windows_Tab()[pri:0, instance:com.selenium.testcases.TC_04_Windows@599f571f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startreport -->
-        <test-method status="PASS" signature="Windows_Tab()[pri:0, instance:com.selenium.testcases.TC_04_Windows@599f571f]" name="Windows_Tab" duration-ms="18322" started-at="2020-10-26T12:18:19 IST" finished-at="2020-10-26T12:18:37 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Windows_Tab -->
-        <test-method status="PASS" signature="endreport()[pri:0, instance:com.selenium.testcases.TC_04_Windows@599f571f]" name="endreport" is-config="true" duration-ms="1" started-at="2020-10-26T12:18:37 IST" finished-at="2020-10-26T12:18:37 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endreport -->
-        <test-method status="PASS" signature="flushreport()[pri:0, instance:com.selenium.testcases.TC_04_Windows@599f571f]" name="flushreport" is-config="true" duration-ms="440" started-at="2020-10-26T12:18:41 IST" depends-on-methods="com.selenium.testcases.TC_04_Windows.closebrowser" finished-at="2020-10-26T12:18:41 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- flushreport -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.selenium.testcases.TC_04_Windows@599f571f]" name="closebrowser" is-config="true" duration-ms="2656" started-at="2020-10-26T12:18:44 IST" finished-at="2020-10-26T12:18:46 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- com.selenium.testcases.TC_04_Windows -->
-      <class name="com.selenium.testcases.TC_01_EditTextBox">
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.selenium.testcases.TC_01_EditTextBox@69eb86b4]" name="closebrowser" is-config="true" duration-ms="2614" started-at="2020-10-26T12:18:38 IST" finished-at="2020-10-26T12:18:41 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- com.selenium.testcases.TC_01_EditTextBox -->
-      <class name="com.selenium.testcases.TC_02_FrameHandling">
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.selenium.testcases.TC_02_FrameHandling@18fdb6cf]" name="closebrowser" is-config="true" duration-ms="882" started-at="2020-10-26T12:18:41 IST" finished-at="2020-10-26T12:18:42 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- com.selenium.testcases.TC_02_FrameHandling -->
-      <class name="com.selenium.testcases.TC_03_Buttons">
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.selenium.testcases.TC_03_Buttons@5395ea39]" name="closebrowser" is-config="true" duration-ms="1622" started-at="2020-10-26T12:18:42 IST" finished-at="2020-10-26T12:18:44 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- com.selenium.testcases.TC_03_Buttons -->
-    </test> <!-- Test_4 -->
-    <test name="Test_1" duration-ms="44205" started-at="2020-10-26T12:17:54 IST" finished-at="2020-10-26T12:18:38 IST">
-      <class name="com.selenium.testcases.TC_01_EditTextBox">
-        <test-method status="PASS" signature="startpage()[pri:0, instance:com.selenium.testcases.TC_01_EditTextBox@69eb86b4]" name="startpage" is-config="true" duration-ms="27764" started-at="2020-10-26T12:17:54 IST" finished-at="2020-10-26T12:18:22 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startpage -->
-        <test-method status="PASS" signature="startreport(org.testng.ITestResult)[pri:0, instance:com.selenium.testcases.TC_01_EditTextBox@69eb86b4]" name="startreport" is-config="true" duration-ms="0" started-at="2020-10-26T12:18:22 IST" finished-at="2020-10-26T12:18:22 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=TC_01_EditTextBox.one()[pri:0, instance:com.selenium.testcases.TC_01_EditTextBox@69eb86b4] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startreport -->
-        <test-method status="PASS" signature="one()[pri:0, instance:com.selenium.testcases.TC_01_EditTextBox@69eb86b4]" name="one" duration-ms="16399" started-at="2020-10-26T12:18:22 IST" finished-at="2020-10-26T12:18:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- one -->
-        <test-method status="PASS" signature="endreport()[pri:0, instance:com.selenium.testcases.TC_01_EditTextBox@69eb86b4]" name="endreport" is-config="true" duration-ms="0" started-at="2020-10-26T12:18:38 IST" finished-at="2020-10-26T12:18:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endreport -->
-      </class> <!-- com.selenium.testcases.TC_01_EditTextBox -->
-    </test> <!-- Test_1 -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- read_02 -->
+      </class> <!-- com.jackson.json.Json_02 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

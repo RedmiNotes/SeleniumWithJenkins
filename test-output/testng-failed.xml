@@ -3,17 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.selenium.testcases.TC_01_EditTextBox">
+      <class name="com.selenium.cucumber.runner.Edit_Runner">
         <methods>
-          <include name="one"/>
-          <include name="reportgen"/>
-          <include name="startreport"/>
-          <include name="flushreport"/>
-          <include name="endreport"/>
-          <include name="startpage"/>
-          <include name="closebrowser"/>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
         </methods>
-      </class> <!-- com.selenium.testcases.TC_01_EditTextBox -->
+      </class> <!-- com.selenium.cucumber.runner.Edit_Runner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

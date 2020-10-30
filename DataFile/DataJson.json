@@ -1,0 +1,16 @@
+{
+	"Emp": {
+		"Name": "Dinesh",
+		"Age": "21",
+		"Location": "Chennai",
+		"MultipleDatas": {
+			"id": ["1", "2", "3"]
+		},
+		"Pincode": "620002"
+	},
+	"detail": {
+		"name": "raone",
+		"age": "10",
+		"id": [1, 2, 3]
+	}
+}
