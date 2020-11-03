@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="3" total="5" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="865" started-at="2020-10-30T23:59:06 IST" finished-at="2020-10-30T23:59:07 IST">
+  <suite name="Default suite" duration-ms="4303" started-at="2020-11-02T21:45:33 IST" finished-at="2020-11-02T21:45:37 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="865" started-at="2020-10-30T23:59:06 IST" finished-at="2020-10-30T23:59:07 IST">
-      <class name="com.jackson.json.Json_02">
-        <test-method status="PASS" signature="read_01()[pri:0, instance:com.jackson.json.Json_02@34c4973]" name="read_01" duration-ms="772" started-at="2020-10-30T23:59:06 IST" finished-at="2020-10-30T23:59:07 IST">
+    <test name="Default test" duration-ms="4303" started-at="2020-11-02T21:45:33 IST" finished-at="2020-11-02T21:45:37 IST">
+      <class name="com.rest.assued.Get_01">
+        <test-method status="PASS" signature="tc_01()[pri:1, instance:com.rest.assued.Get_01@fad74ee]" name="tc_01" duration-ms="1410" started-at="2020-11-02T21:45:33 IST" finished-at="2020-11-02T21:45:34 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- read_01 -->
-        <test-method status="PASS" signature="read_02()[pri:0, instance:com.jackson.json.Json_02@34c4973]" name="read_02" duration-ms="6" started-at="2020-10-30T23:59:07 IST" finished-at="2020-10-30T23:59:07 IST">
+        </test-method> <!-- tc_01 -->
+        <test-method status="PASS" signature="tc_05()[pri:5, instance:com.rest.assued.Get_01@fad74ee]" name="tc_05" duration-ms="2793" started-at="2020-11-02T21:45:34 IST" finished-at="2020-11-02T21:45:37 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- read_02 -->
-      </class> <!-- com.jackson.json.Json_02 -->
+        </test-method> <!-- tc_05 -->
+      </class> <!-- com.rest.assued.Get_01 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

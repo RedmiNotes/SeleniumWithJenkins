@@ -11,6 +11,18 @@
 	"detail": {
 		"name": "raone",
 		"age": "10",
-		"id": [1, 2, 3]
+		"names": ["A", "B", "C", "D", "E"]
+	},
+	"selenium_easy": {
+		"url": "https://www.seleniumeasy.com/test/input-form-demo.html",
+		"firstname" : "Diensh",
+		"lastname" : "Joseph",
+		"email" : "dj008@email.com",
+		"phone" : "9876543210",
+		"address" : "N0:08, First Avenue, Private drive",
+		"city" : "Cicago",
+		"state" : "Louisiana",
+		"domain" : "https://www.networksolutions.com/",
+		"desc" : "Friendships are born in a million different ways"
 	}
 }
