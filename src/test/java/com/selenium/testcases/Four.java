@@ -14,8 +14,5 @@ public class Four extends Three {
 		startbrowser("ch");
 	}
 
-	@Test
-	public void tc_01() {
-		new Two(driver).get_title();
-	}
+	
 }

@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.rest.assued.Get_01">
+      <class name="com.selenium.testcases.Slider_Example">
         <methods>
-          <include name="tc_04"/>
+          <include name="slider_01"/>
         </methods>
-      </class> <!-- com.rest.assued.Get_01 -->
+      </class> <!-- com.selenium.testcases.Slider_Example -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
