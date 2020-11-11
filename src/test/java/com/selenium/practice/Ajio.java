@@ -15,6 +15,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Ajio {
 
 	public WebDriver driver;
+
 	public static void wait(int n) {
 		try {
 			Thread.sleep(n * (1000));
@@ -150,7 +151,6 @@ public class Ajio {
 		}catch (Exception e) {
 			e.printStackTrace();
 		}
-
 	}
 	public void sortbtDiscount() {
 		try {
