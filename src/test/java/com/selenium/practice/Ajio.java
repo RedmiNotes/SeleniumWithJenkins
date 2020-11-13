@@ -71,7 +71,7 @@ public class Ajio {
 
 			System.out.println("The Name of the Product : " + nameofItem);
 
-			Map<String, Integer> mostlowercasecharacter = new HashMap<String, Integer>();
+			Map<String, Integer> mostlowercasecharacter = new LinkedHashMap<String, Integer>();
 			int count;
 			for(int i=0;i<nameofItem.size();i++) {
 				char[] ch = nameofItem.get(i).toCharArray();
