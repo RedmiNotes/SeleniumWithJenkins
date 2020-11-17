@@ -1,24 +1,50 @@
 package com.selenium.practice;
 
+import java.io.*;
+import java.util.*;
+
 public class Practice {
-	public int distinctInteger_02(int[] nums, int target) {
-		int i=0; 
-		int j=nums.length-1;
-		while(i<=j){
-			int mid = (i+j)/2;
-			if(target > nums[mid]){
-				i=mid+1;
-			}else if(target < nums[mid]){
-				j=mid-1;
-			}else{
-				return mid;
+	static List<Integer> compareTriplets(List<Integer> a, List<Integer> b) {
+		List<Integer> list = new ArrayList<>();
+		int sum1 = 0;
+		int sum3 = 0;
+		int j = 0;
+		for(int i=0;i<a.size();i++) {
+			while(0<b.size()) {
+				if(a.get(i)>b.get(j)) {
+					sum1 = sum1 + 1;
+				}else if(a.get(i)==b.get(j)) {
+				}else if(a.get(i)<b.get(j)) {
+					sum3 = sum3 + 1;
+				}
+				j++;
+				break;
 			}
 		}
-		return i;
+		list.add(sum1);
+		list.add(sum3);
+		for(int i=0;i<list.size();i++) {
+			System.out.print(list.get(i) + " ");
+		}
+		return list;
 	}
 	public static void main(String[] args) {
-		int[] n = {1,3,5,6};
-		int target = 4;
-		System.out.println(new Practice().distinctInteger_02(n, target));
+		Scanner scan = new Scanner(System.in);
+		int n = scan.nextInt();
+		int[] n1 = new int[n];
+		List<Integer> a = new ArrayList<>();
+		for(int i=0;i<n;i++){
+			n1[i] = scan.nextInt();
+			a.add(n1[i]);
+		}
+
+		int[] n2 = new int[n];
+		List<Integer> b = new ArrayList<>();
+		for(int i=0;i<n;i++){
+			n2[i] = scan.nextInt();
+			b.add(n2[i]);
+		}
+		compareTriplets(a, b);
+		scan.close();
 	}
 }
