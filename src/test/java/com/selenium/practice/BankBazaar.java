@@ -65,7 +65,7 @@ public class BankBazaar {
 	}
 	public void navigatetoBankbazaar() {
 		try {
-			driver.get("http://bankbazaar.com/personal-loan.html");
+			driver.get("https://bankbazaar.com/personal-loan.html");
 			driver.manage().window().maximize();
 			wait(15);
 		}catch (Exception e) {
@@ -213,13 +213,24 @@ public class BankBazaar {
 		enterWrongPhoneNumber();
 		closeBrowser();
 	}
-	
-	
+
+
 	public static void main(String[] args) {
 		BankBazaar bankbazaar = new BankBazaar();
-		String browser = "chrome";
-		String company_name = "INFOSYS";
-		String code = "600001";
-		bankbazaar.Bank_Bazaar(browser, company_name, code);
+		String browser = null;
+		for(int i=1;i<=3;i++) {
+			if(i==1) {
+				browser = "chrome";
+			}
+			if(i==2) {
+				browser = "firefox";
+			}
+			if(i==3) {
+				browser = "edge";
+			}
+			String company_name = "INFOSYS";
+			String code = "600001";
+			bankbazaar.Bank_Bazaar(browser, company_name, code);
+		}
 	}
 }
