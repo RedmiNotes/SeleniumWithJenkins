@@ -23,7 +23,7 @@ public class Zomato {
 			//System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
 			WebDriverManager.chromedriver().arch32().setup();
 			ChromeOptions option = new ChromeOptions();                               
-			///option.addArguments("--headless");              //When I tried to run in headless mode, it throwing error as NoSuchElementException: no such element: Unable to locate element: 'A2B' in search box. Normal  run it working.
+			//option.addArguments("--headless");              //When I tried to run in headless mode, it throwing error as NoSuchElementException: no such element: Unable to locate element: 'A2B' in search box. Normal  run it working.
 			//option.addArguments("window-size=1800x1080");
 			driver = new ChromeDriver(option);
 		}catch (Exception e) {
