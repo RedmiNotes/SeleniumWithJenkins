@@ -93,7 +93,7 @@ public class FindAllAnagrams {
 	public static void main(String[] args) {
 		FindAllAnagrams allanagram = new FindAllAnagrams();
 		String s =  "cbaebabacd";
-		String p =  "ab";
+		String p =  "bca";
 		List<Integer> anagram =  allanagram.findAnagrams(s, p);
 		System.out.println(anagram);
 	}
