@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.selenium.practice.ImageDownload">
+      <class name="com.selenium.practice.AllureReport">
         <methods>
-          <include name="jewelleryroom"/>
-          <include name="initialize"/>
-          <include name="finish"/>
+          <include name="tc_02"/>
+          <include name="Finish"/>
+          <include name="ValidateTitle"/>
         </methods>
-      </class> <!-- com.selenium.practice.ImageDownload -->
+      </class> <!-- com.selenium.practice.AllureReport -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,37 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="56166" started-at="2020-11-23T21:25:40 IST" finished-at="2020-11-23T21:26:37 IST">
+  <suite name="Suite" duration-ms="7313" started-at="2020-11-24T20:37:46 IST" finished-at="2020-11-24T20:37:53 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="56166" started-at="2020-11-23T21:25:40 IST" finished-at="2020-11-23T21:26:37 IST">
-      <class name="com.selenium.practice.ImageDownload">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.selenium.practice.ImageDownload@3f200884]" name="initialize" is-config="true" duration-ms="1567" started-at="2020-11-23T21:25:41 IST" finished-at="2020-11-23T21:25:42 IST">
+    <test name="Test" duration-ms="7313" started-at="2020-11-24T20:37:46 IST" finished-at="2020-11-24T20:37:53 IST">
+      <class name="com.selenium.practice.AllureReport">
+        <test-method status="PASS" signature="ValidateTitle()[pri:0, instance:com.selenium.practice.AllureReport@2cd76f31]" name="ValidateTitle" is-config="true" duration-ms="4554" started-at="2020-11-24T20:37:46 IST" finished-at="2020-11-24T20:37:50 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="google()[pri:1, instance:com.selenium.practice.ImageDownload@3f200884]" name="google" duration-ms="10170" started-at="2020-11-23T21:25:42 IST" finished-at="2020-11-23T21:25:52 IST">
+        </test-method> <!-- ValidateTitle -->
+        <test-method status="PASS" signature="tc_01()[pri:0, instance:com.selenium.practice.AllureReport@2cd76f31]" name="tc_01" duration-ms="254" started-at="2020-11-24T20:37:50 IST" finished-at="2020-11-24T20:37:51 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- google -->
-        <test-method status="PASS" signature="flipkart()[pri:2, instance:com.selenium.practice.ImageDownload@3f200884]" name="flipkart" duration-ms="13220" started-at="2020-11-23T21:25:52 IST" finished-at="2020-11-23T21:26:06 IST">
+        </test-method> <!-- tc_01 -->
+        <test-method status="PASS" signature="tc_02()[pri:0, instance:com.selenium.practice.AllureReport@2cd76f31]" name="tc_02" duration-ms="524" started-at="2020-11-24T20:37:51 IST" finished-at="2020-11-24T20:37:51 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- flipkart -->
-        <test-method status="PASS" signature="amazon()[pri:3, instance:com.selenium.practice.ImageDownload@3f200884]" name="amazon" duration-ms="14393" started-at="2020-11-23T21:26:06 IST" finished-at="2020-11-23T21:26:20 IST">
+        </test-method> <!-- tc_02 -->
+        <test-method status="PASS" signature="Finish()[pri:0, instance:com.selenium.practice.AllureReport@2cd76f31]" name="Finish" is-config="true" duration-ms="1741" started-at="2020-11-24T20:37:51 IST" finished-at="2020-11-24T20:37:53 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- amazon -->
-        <test-method status="PASS" signature="ajio()[pri:5, instance:com.selenium.practice.ImageDownload@3f200884]" name="ajio" duration-ms="14699" started-at="2020-11-23T21:26:20 IST" finished-at="2020-11-23T21:26:35 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ajio -->
-        <test-method status="PASS" signature="finish()[pri:0, instance:com.selenium.practice.ImageDownload@3f200884]" name="finish" is-config="true" duration-ms="2012" started-at="2020-11-23T21:26:35 IST" finished-at="2020-11-23T21:26:37 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- finish -->
-      </class> <!-- com.selenium.practice.ImageDownload -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- Finish -->
+      </class> <!-- com.selenium.practice.AllureReport -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
