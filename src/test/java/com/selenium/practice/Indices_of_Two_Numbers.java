@@ -1,5 +1,7 @@
 package com.selenium.practice;
 
+import java.util.Arrays;
+
 public class Indices_of_Two_Numbers {
 	public int[] twoSum(int[] n, int num) {
 		int[] n1 = new int[2];
@@ -8,10 +10,11 @@ public class Indices_of_Two_Numbers {
 				if(num ==(n[i]+n[j])) {
 					n1[0] = i;
 					n1[1] = j;
-					System.out.println("[" + n1[0] + ", " + n1[1] + "]");
+					//System.out.println("[" + n1[0] + ", " + n1[1] + "]");
 				}
 			}
 		}
+		System.out.println(Arrays.toString(n1));
 		return n1;
 	}
 
